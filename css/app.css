@@ -74,11 +74,11 @@ img {
 }
 .row.navbar{
     justify-content: space-between;
-   align-content: center;
+   align-items: center;
+   min-height: 50px;
 }
 .navbar > *{
     border: 1px solid blue;
-    min-height: 50px;
 }
 .main-menu{
     display: flex;
