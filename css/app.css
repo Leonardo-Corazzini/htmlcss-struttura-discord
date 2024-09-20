@@ -20,6 +20,7 @@ img {
 .conteiner{
     width: 900px;
     margin: 0 auto;
+    padding: 20px;
 }
 .row{
     display: flex;
@@ -43,6 +44,12 @@ img {
     flex-basis: calc(100% / 3);
     background-color: pink;
 }
+.col-100{
+    min-height: 500px;
+    border: 1px solid red;
+    flex-basis: 100%;
+    background-color: green;
+}
 
 /* header style */
 .main-header{
@@ -51,9 +58,6 @@ img {
 .row.navbar{
     justify-content: space-between;
    align-content: center;
-}
-.main-header .conteiner{
-    padding: 20px;
 }
 .navbar > *{
     border: 1px solid blue;
@@ -74,7 +78,7 @@ img {
 .section-layout-2,.section-layout-4{
     background-color: white;
 }
-.section-layout-3{
+.section-layout-3,.section-layout-5{
     background-color: pink;
 }
 /* DEBUG */
