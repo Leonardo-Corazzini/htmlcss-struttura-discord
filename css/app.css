@@ -20,3 +20,19 @@ img {
     width: 900px;
     margin: 0 auto;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* header style */
+.main-header{
+    background-color: blue;
+}
+.row.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+/* DEBUG */
+.conteiner .debug{
+    background-color: orange;
+}
