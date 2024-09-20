@@ -22,6 +22,11 @@ img {
     margin: 0 auto;
     padding: 20px;
 }
+.footer-conteiner{
+    width: 900px;
+    margin: 0 auto;
+    padding: 5px 20px 20px ;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +54,18 @@ img {
     border: 1px solid red;
     flex-basis: 100%;
     background-color: green;
+}
+.col-32{
+    background-color: coral;
+    min-height: 350px;
+    border: 1px solid red;
+    flex-basis: calc(100% /6*2);
+}
+.col-16{
+    background-color: pink;
+    min-height: 350px;
+    border: 1px solid red;
+    flex-basis: calc(100% / 6);
 }
 
 /* header style */
@@ -81,6 +98,28 @@ img {
 .section-layout-3,.section-layout-5{
     background-color: pink;
 }
+/* footer style */
+.section-layout-6,.section-layout-7{
+    background-color: rgb(61, 59, 59);
+}
+.section-layout-7 .row{
+    justify-content: space-between;
+    background-color: beige;
+    min-height: 50px;
+    align-items: center;
+}
+.section-layout-7 .footer-conteiner{
+    padding: 10px 20px 0px;
+}
+.section-layout-7{
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+.footer-logo,.footer-button{
+    background-color: gray;
+    border: 1px solid red;
+}
+
 /* DEBUG */
 .conteiner .debug{
     background-color: orange;
