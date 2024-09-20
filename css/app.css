@@ -25,6 +25,25 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+.col-80{
+    border: 1px solid red;
+    min-height: 300px;
+    flex-basis: 80%;
+    background-color: rgb(111, 181, 243);
+}
+.col-66{
+    border: 1px solid red;
+    min-height: 350px;
+    flex-basis: calc(100% / 3*2);
+    background-color: blueviolet;
+}
+.col-33{
+    border: 1px solid red;
+    min-height: 350px;
+    flex-basis: calc(100% / 3);
+    background-color: pink;
+}
+
 /* header style */
 .main-header{
     background-color: rgb(122, 122, 247);
@@ -52,13 +71,10 @@ img {
 .section-layout-1 .row{
     justify-content: center;
 }
+.section-layout-2{
+    background-color: white;
+}
 /* DEBUG */
 .conteiner .debug{
     background-color: orange;
-}
-.col{
-    border: 1px solid red;
-    min-height: 300px;
-    flex-basis: 80%;
-    background-color: rgb(111, 181, 243);
 }
