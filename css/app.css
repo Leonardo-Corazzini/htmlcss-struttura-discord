@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 ul,ol {
 	list-style: none;
@@ -26,11 +27,27 @@ img {
 }
 /* header style */
 .main-header{
-    background-color: blue;
+    background-color: rgb(122, 122, 247);
 }
 .row.navbar{
     justify-content: space-between;
-    align-items: center;
+   align-content: center;
+}
+.main-header .conteiner{
+    padding: 20px;
+}
+.navbar > *{
+    border: 1px solid blue;
+    min-height: 50px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    gap:20px ;
+}
+/* MAIN STYLE */
+.section-layout-1{
+    background-color: blue;
 }
 /* DEBUG */
 .conteiner .debug{
