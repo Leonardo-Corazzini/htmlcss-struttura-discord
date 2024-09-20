@@ -71,7 +71,7 @@ img {
 .section-layout-1 .row{
     justify-content: center;
 }
-.section-layout-2{
+.section-layout-2,.section-layout-4{
     background-color: white;
 }
 .section-layout-3{
