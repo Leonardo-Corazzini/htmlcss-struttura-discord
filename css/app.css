@@ -15,3 +15,8 @@ a {
 img {
 	max-width: 100%;
 }
+/* LAYOUT */
+.conteiner{
+    width: 900px;
+    margin: 0 auto;
+}
