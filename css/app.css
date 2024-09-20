@@ -74,6 +74,9 @@ img {
 .section-layout-2{
     background-color: white;
 }
+.section-layout-3{
+    background-color: pink;
+}
 /* DEBUG */
 .conteiner .debug{
     background-color: orange;
