@@ -49,7 +49,16 @@ img {
 .section-layout-1{
     background-color: blue;
 }
+.section-layout-1 .row{
+    justify-content: center;
+}
 /* DEBUG */
 .conteiner .debug{
     background-color: orange;
+}
+.col{
+    border: 1px solid red;
+    min-height: 300px;
+    flex-basis: 80%;
+    background-color: rgb(111, 181, 243);
 }
